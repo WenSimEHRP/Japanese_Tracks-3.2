@@ -1350,6 +1350,14 @@ optional_info // Action14
     }
 }
 // Record #89
+optional_info
+{
+    INFO:
+    {
+        NAME: zh_CN,"Japan Set3: 铁道";
+        DESC: zh_CN, "{white}Japan {red}Set{gold}{white}3: 铁道{lt-blue} - v3.2 - 2016年1月{black}{new-line}由{lt-blue}Dandan, Onodera, Sanchimaru{black}绘制;{new-line}部分贴图基于OpenGFX。{new-line}由{lt-blue}Dandan{black}, {lt-blue}stevenh{black}编写。{new-line}由{lt-blue}WenSim{black}于2023年11月翻译。";
+    }
+}
 grf // Action08
 {
     grf_id: "DP0\x00";
@@ -3899,22 +3907,22 @@ strings<Railtypes, zh_CN, 0xDC27*> // <feature, language, first_id> Action04, zh
 // Record #193
 strings<Railtypes, zh_CN, 0xDC28*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Main line {green}(第三轨供电){white}"; //0xDC28
+    "主线铁路 {green}(第三轨供电){white}"; //0xDC28
 }
 // Record #194
 strings<Railtypes, zh_CN, 0xDC29*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Main line {green}(dual {lt-blue}电气化){white}"; //0xDC29
+    "主线铁路 {green}(双{lt-blue}电气化){white}"; //0xDC29
 }
 // Record #195
 strings<Railtypes, zh_CN, 0xDC2A*> // <feature, language, first_id> Action04, zh_CN
 {
-    "城市line {lt-blue}(电气化){white}"; //0xDC2A
+    "城市铁路 {lt-blue}(电气化){white}"; //0xDC2A
 }
 // Record #196
 strings<Railtypes, zh_CN, 0xDC2B*> // <feature, language, first_id> Action04, zh_CN
 {
-    "城市line {green}(第三轨供电){white}"; //0xDC2B
+    "城市铁路 {green}(第三轨供电){white}"; //0xDC2B
 }
 // Record #197
 strings<Railtypes, zh_CN, 0xDC2C*> // <feature, language, first_id> Action04, zh_CN
@@ -3929,157 +3937,157 @@ strings<Railtypes, zh_CN, 0xDC2D*> // <feature, language, first_id> Action04, zh
 // Record #199
 strings<Railtypes, zh_CN, 0xDC30*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New trains"; //0xDC30
+    "{white}新列车"; //0xDC30
 }
 // Record #200
 strings<Railtypes, zh_CN, 0xDC31*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New trains"; //0xDC31
+    "{white}新列车"; //0xDC31
 }
 // Record #201
 strings<Railtypes, zh_CN, 0xDC32*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New trains"; //0xDC32
+    "{white}新列车"; //0xDC32
 }
 // Record #202
 strings<Railtypes, zh_CN, 0xDC33*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New trains"; //0xDC33
+    "{white}新列车"; //0xDC33
 }
 // Record #203
 strings<Railtypes, zh_CN, 0xDC34*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New electric trains"; //0xDC34
+    "{white}新电气化列车"; //0xDC34
 }
 // Record #204
 strings<Railtypes, zh_CN, 0xDC35*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New electric trains"; //0xDC35
+    "{white}新电气化列车"; //0xDC35
 }
 // Record #205
 strings<Railtypes, zh_CN, 0xDC36*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New electric trains"; //0xDC36
+    "{white}新电气化列车"; //0xDC36
 }
 // Record #206
 strings<Railtypes, zh_CN, 0xDC37*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New electric trains"; //0xDC37
+    "{white}新电气化列车"; //0xDC37
 }
 // Record #207
 strings<Railtypes, zh_CN, 0xDC38*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New 第三轨供电 trains"; //0xDC38
+    "{white}新第三轨供电列车"; //0xDC38
 }
 // Record #208
 strings<Railtypes, zh_CN, 0xDC39*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New dual electric trains"; //0xDC39
+    "{white}新双电气化列车"; //0xDC39
 }
 // Record #209
 strings<Railtypes, zh_CN, 0xDC3A*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New electric trains"; //0xDC3A
+    "{white}新电气化列车"; //0xDC3A
 }
 // Record #210
 strings<Railtypes, zh_CN, 0xDC3B*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New 第三轨供电 trains"; //0xDC3B
+    "{white}新第三轨供电列车"; //0xDC3B
 }
 // Record #211
 strings<Railtypes, zh_CN, 0xDC3C*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New narrow gauge trains"; //0xDC3C
+    "{white}新窄轨列车"; //0xDC3C
 }
 // Record #212
 strings<Railtypes, zh_CN, 0xDC3D*> // <feature, language, first_id> Action04, zh_CN
 {
-    "{white}New narrow gauge trains"; //0xDC3D
+    "{white}新窄轨列车"; //0xDC3D
 }
 // Record #213
 strings<Railtypes, zh_CN, 0xDC40*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Light trains"; //0xDC40
+    "轻型列车"; //0xDC40
 }
 // Record #214
 strings<Railtypes, zh_CN, 0xDC41*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Trains"; //0xDC41
+    "列车"; //0xDC41
 }
 // Record #215
 strings<Railtypes, zh_CN, 0xDC42*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Modern trains"; //0xDC42
+    "现代列车"; //0xDC42
 }
 // Record #216
 strings<Railtypes, zh_CN, 0xDC43*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Highspeed trains"; //0xDC43
+    "高速列车"; //0xDC43
 }
 // Record #217
 strings<Railtypes, zh_CN, 0xDC44*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Electric trains"; //0xDC44
+    "电气化列车"; //0xDC44
 }
 // Record #218
 strings<Railtypes, zh_CN, 0xDC45*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Modern electric trains"; //0xDC45
+    "电气化现代列车"; //0xDC45
 }
 // Record #219
 strings<Railtypes, zh_CN, 0xDC46*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Electric highspeed trains"; //0xDC46
+    "电气化高速列车"; //0xDC46
 }
 // Record #220
 strings<Railtypes, zh_CN, 0xDC47*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Modern electric highspeed trains"; //0xDC47
+    "电气化现代高速列车"; //0xDC47
 }
 // Record #221
 strings<Railtypes, zh_CN, 0xDC48*> // <feature, language, first_id> Action04, zh_CN
 {
-    "第三轨供电 trains"; //0xDC48
+    "第三轨供电列车"; //0xDC48
 }
 // Record #222
 strings<Railtypes, zh_CN, 0xDC49*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Dual powered electric trains"; //0xDC49
+    "双电气化列车"; //0xDC49
 }
 // Record #223
 strings<Railtypes, zh_CN, 0xDC4A*> // <feature, language, first_id> Action04, zh_CN
 {
-    "城市trains"; //0xDC4A
+    "城市列车"; //0xDC4A
 }
 // Record #224
 strings<Railtypes, zh_CN, 0xDC4B*> // <feature, language, first_id> Action04, zh_CN
 {
-    "城市第三轨供电 trains"; //0xDC4B
+    "城市第三轨供电列车"; //0xDC4B
 }
 // Record #225
 strings<Railtypes, zh_CN, 0xDC4C*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Narrow gauge trains"; //0xDC4C
+    "窄轨列车"; //0xDC4C
 }
 // Record #226
 strings<Railtypes, zh_CN, 0xDC4D*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Electric narrow gauge trains"; //0xDC4D
+    "电气化窄轨列车"; //0xDC4D
 }
 // Record #227
 strings<Railtypes, zh_CN, 0xDC50*> // <feature, language, first_id> Action04, zh_CN
 {
-    "rail vehicle"; //0xDC50
+    "铁路列车"; //0xDC50
 }
 // Record #228
 strings<Railtypes, zh_CN, 0xDC53*> // <feature, language, first_id> Action04, zh_CN
 {
-    "rail vehicle"; //0xDC53
+    "铁路列车"; //0xDC53
 }
 // Record #229
 strings<Railtypes, zh_CN, 0xDC5C*> // <feature, language, first_id> Action04, zh_CN
 {
-    "rail vehicle"; //0xDC5C
+    "铁路列车"; //0xDC5C
 }
 // Record #230
 if_act9 (is_bit_set(param[0x11] & 0xFF, 1 << 1)) // Action09
@@ -4091,62 +4099,62 @@ if_act9 (is_bit_set(param[0x11] & 0xFF, 1 << 1)) // Action09
 // Record #231
 strings<Railtypes, zh_CN, 0xDC11*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railway"; //0xDC11
+    "铁路"; //0xDC11
 }
 // Record #232
 strings<Railtypes, zh_CN, 0xDC14*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad (电气化)"; //0xDC14
+    "铁路 (电气化)"; //0xDC14
 }
 // Record #233
 strings<Railtypes, zh_CN, 0xDC18*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad (第三轨供电)"; //0xDC18
+    "铁路 (第三轨供电)"; //0xDC18
 }
 // Record #234
 strings<Railtypes, zh_CN, 0xDC19*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad (dual 电气化)"; //0xDC19
+    "铁路 (双电气化)"; //0xDC19
 }
 // Record #235
 strings<Railtypes, zh_CN, 0xDC1C*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Narrow gauge railroad"; //0xDC1C
+    "窄轨铁路"; //0xDC1C
 }
 // Record #236
 strings<Railtypes, zh_CN, 0xDC1D*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Narrow gauge railroad (电气化)"; //0xDC1D
+    "窄轨铁路 (电气化)"; //0xDC1D
 }
 // Record #237
 strings<Railtypes, zh_CN, 0xDC21*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad{white}"; //0xDC21
+    "铁路{white}"; //0xDC21
 }
 // Record #238
 strings<Railtypes, zh_CN, 0xDC24*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad {lt-blue}(电气化){white}"; //0xDC24
+    "铁路 {lt-blue}(电气化){white}"; //0xDC24
 }
 // Record #239
 strings<Railtypes, zh_CN, 0xDC28*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad {green}(第三轨供电){white}"; //0xDC28
+    "铁路 {green}(第三轨供电){white}"; //0xDC28
 }
 // Record #240
 strings<Railtypes, zh_CN, 0xDC29*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Railroad {green}(dual {lt-blue}电气化){white}"; //0xDC29
+    "铁路 {green}(双{lt-blue}电气化){white}"; //0xDC29
 }
 // Record #241
 strings<Railtypes, zh_CN, 0xDC2C*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Narrow gauge railroad{white}"; //0xDC2C
+    "窄轨铁路{white}"; //0xDC2C
 }
 // Record #242
 strings<Railtypes, zh_CN, 0xDC2D*> // <feature, language, first_id> Action04, zh_CN
 {
-    "Narrow gauge railroad {lt-blue}(电气化){white}"; //0xDC2D
+    "窄轨铁路 {lt-blue}(电气化){white}"; //0xDC2D
 }
 // Record #243
 label<0xF1> // Action10 - target for Action07 or Action09
